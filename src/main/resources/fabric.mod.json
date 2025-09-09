@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "tearsmusicmod",
+  "version": "1.0.1",
+  "name": "Tears Music Mod",
+  "description": "Client-side mod that replaces the 'Tears' music disc with a clean version.",
+  "authors": ["boo_oriley"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.TearsMusicMod.TearsMusicMod"
+    ],
+    "client": [
+    "com.TearsMusicModClient.TearsMusicModClient"
+  ]},
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric": "*"
+  }
+}
